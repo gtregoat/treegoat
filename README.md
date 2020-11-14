@@ -10,6 +10,10 @@ Helper functions for building machine learning pipelines from exploration to pro
     - pipelines: inheritable classes to ease wrapping models in a production pipeline (e.g. building a text classification pipeline by inheriting the nlp pipline only requires defining a build function with the keras model)
     - preprocessing: scikit-learn like transformers (with fit_transform and transform methods) to transform data before feeding a model
     - utils: various functions useful in other parts of this library (e.g. loading GloVe word embeddings)
+- tests
+    - one test package per sub treegoat package
+        - one test module per module
+    - ...
 ```
 
 ### NLP pipeline
